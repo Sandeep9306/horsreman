@@ -12,6 +12,20 @@
   display: none !important;
 }
 
+.numbers {
+  background: var(--dark-green);
+  border-radius: 50%;
+  width: 35px !important;
+  height: 35px !important;
+}
+
+.blog_img {
+  width: 190px !important;
+}
+
+.blogs_wrap {
+  border-top: 1px solid #b1bca2 !important;
+}
 /* FOOTER-STARTS  */
 .social_icons:hover {
   transform: translateY(-8px) scale(1.07);
@@ -46,5 +60,9 @@
 @media (max-width: 567.9px) {
   .footer_logo {
     width: 180px;
+  }
+  .blog_img {
+    object-fit: cover;
+    width: 90px !important;
   }
 }
