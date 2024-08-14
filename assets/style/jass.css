@@ -1,9 +1,36 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* FOOTER-STARTS  */
+.social_icons:hover {
+  transform: translateY(-8px) scale(1.07);
+}
+.mx_980 {
+  max-width: 980px;
+}
+.footer_links a {
+  position: relative;
+  display: inline-block;
+}
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style-type: none;
-  text-decoration: none;
+.footer_links a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px; /* Thickness of the underline */
+  background-color: white;
+  transition: width 0.3s ease, left 0.3s ease; /* Smooth animation */
+}
+
+.footer_links a:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+/* FOOTER-ENDS  */
+
+/* ========================== MEDIA-QUERY ======================  */
+@media (max-width: 567.9px) {
+  .footer_logo {
+    width: 180px;
+  }
 }
