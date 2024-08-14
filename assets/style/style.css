@@ -36,6 +36,12 @@
   color: var(--primary-color);
 }
 
+.custom_container {
+  max-width: 980px !important;
+  width: 100% !important;
+  margin: 0 auto;
+}
+
 .black_color {
   color: var(--black-color-color);
 }
@@ -46,44 +52,44 @@
 
 /* background color */
 .bg_primary {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color) !important;
 }
 
 .bg_dark_green {
-  background-color: var(--dark-green);
+  background-color: var(--dark-green) !important;
 }
 
 /* font-family */
 .font_montserrat {
-  font-family: var(--montserrat-font);
+  font-family: var(--montserrat-font) !important;
 }
 
 /* font-weight  */
 .fw_500 {
-  font-weight: var(--fw-500);
+  font-weight: var(--fw-500) !important;
 }
 
 /* font-size */
 .text_xs {
-  font-size: var(--text-xs);
+  font-size: var(--text-xs) !important;
 }
 
 .text_xsm {
-  font-size: var(--text-xsm);
+  font-size: var(--text-xsm) !important;
 }
 
 .text_sm {
-  font-size: var(--text-sm);
+  font-size: var(--text-sm) !important;
 }
 
 .text_md {
-  font-size: var(--text-md);
+  font-size: var(--text-md) !important;
 }
 
 .text_lg {
-  font-size: var(--text-lg);
+  font-size: var(--text-lg) !important;
 }
 
 .text_xl {
-  font-size: var(--text-xl);
+  font-size: var(--text-xl) !important;
 }

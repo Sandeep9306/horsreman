@@ -1,3 +1,17 @@
+/* TABS-BTNS */
+.tabs_btns {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  background: transparent !important;
+}
+.tabs_btns:hover {
+  background: var(--primary-color) !important;
+  color: #fff !important;
+}
+.tabs_wrap::-webkit-scrollbar {
+  display: none !important;
+}
+
 /* FOOTER-STARTS  */
 .social_icons:hover {
   transform: translateY(-8px) scale(1.07);
