@@ -14,6 +14,7 @@
   /* Color */
   --primary-color: #92ae6d;
   --black-color: #1d1d1b;
+  --secondary-color: #627945;
   --dark-green: #627945;
 
   /* font family */
@@ -59,6 +60,10 @@
   background-color: var(--dark-green) !important;
 }
 
+.bg_secondary {
+  background-color: var(--secondary-color);
+}
+
 /* font-family */
 .font_montserrat {
   font-family: var(--montserrat-font) !important;
@@ -92,4 +97,79 @@
 
 .text_xl {
   font-size: var(--text-xl) !important;
+}
+
+/*  */
+.max_w_648 {
+  max-width: 648px;
+}
+
+.lh_127 {
+  line-height: 127%;
+}
+
+.lh_157 {
+  line-height: 157%;
+}
+
+.btn_primary {
+  padding: 4px 6px;
+  background-color: var(--primary-color);
+  color: white;
+  border: 0px;
+  font-size: var(--text-xs);
+  font-family: 600;
+  font-family: var(--montserrat-font);
+}
+
+.color_blue {
+  color: #3b82d6;
+}
+
+.news_bg {
+  background: linear-gradient(to bottom, #eff1ec, #eff1ec);
+}
+
+.py_40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.my_40 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.mt_40 {
+  margin-top: 40px;
+}
+
+.mb_40 {
+  margin-bottom: 40px;
+}
+
+.mt_60 {
+  margin-top: 60px;
+}
+
+.my_60 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.container {
+  max-width: 980px !important;
+}
+
+/* Media Query  */
+@media (min-width: 767.98px) {
+  :root {
+    /* font-size */
+    --text-xs: 12px;
+    --text-xsm: 14px;
+    --text-sm: 16px;
+    --text-md: 20px;
+    --text-lg: 24px;
+    --text-xl: 36px;
+  }
 }
