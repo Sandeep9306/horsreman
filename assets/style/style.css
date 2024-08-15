@@ -103,6 +103,11 @@
 .max_w_648 {
   max-width: 648px;
 }
+.max_w_93 {
+  max-width: 93px;
+}
+
+
 
 .lh_127 {
   line-height: 127%;
@@ -171,6 +176,9 @@
     --text-md: 20px;
     --text-lg: 24px;
     --text-xl: 36px;
+  }
+  .max_w_121 {
+    max-width: 121px;
   }
 }
 
