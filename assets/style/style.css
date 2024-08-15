@@ -190,8 +190,8 @@
   :root {
     /* font-size */
     --text-xs: 12px;
-    --text-xsm: 14px;
-    --text-sm: 16px;
+    --text-xsm: 12px;
+    --text-sm: 14px;
     --text-md: 18px;
     --text-lg: 20px;
     --text-xl: 24px;
