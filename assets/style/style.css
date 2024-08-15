@@ -180,7 +180,7 @@ a {
 }
 
 a:hover {
-    color: var(--primary-color);
+    color: var(--primary-color) !important;
     /* Optional: Add hover color */
 }
 
@@ -231,6 +231,25 @@ a:hover {
     /* Adjust gap for social icons */
 }
 
+.searchbar {
+    border-bottom: 1px solid black !important;
+}
+
+#header {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: -600px;
+    /* Hide the header off-screen */
+    transition: left 0.3s ease;
+    z-index: 5;
+}
+
+
 /* Media Query  */
 @media (min-width: 767.98px) {
     :root {
@@ -246,6 +265,8 @@ a:hover {
     .max_w_121 {
         max-width: 121px;
     }
+
+
 }
 
 @media (max-width: 767.98px) {
@@ -269,6 +290,10 @@ a:hover {
         --text-md: 18px;
         --text-lg: 20px;
         --text-xl: 24px;
+    }
+
+    .searchbar {
+        border-bottom: 1px solid transparent !important;
     }
 }
 
