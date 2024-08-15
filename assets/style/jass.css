@@ -13,16 +13,20 @@
 }
 
 .numbers {
-  background: var(--dark-green);
   border-radius: 50%;
-  width: 35px !important;
-  height: 35px !important;
+  height: 30px;
+  width: 30px;
 }
-
 .blog_img {
   width: 190px !important;
 }
+.blog_imgs {
+  width: 100px !important;
+}
 
+.border_bottom {
+  border-bottom: 1px solid #b1bca2 !important;
+}
 .blogs_wrap {
   border-top: 1px solid #b1bca2 !important;
 }

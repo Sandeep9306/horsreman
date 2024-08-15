@@ -173,3 +173,58 @@
     --text-xl: 36px;
   }
 }
+
+@media (max-width: 767.98px) {
+  :root {
+    /* font-size */
+    --text-xs: 12px;
+    --text-xsm: 14px;
+    --text-sm: 16px;
+    --text-md: 20px;
+    --text-lg: 24px;
+    --text-xl: 32px;
+  }
+}
+
+@media (max-width: 568.98px) {
+  :root {
+    /* font-size */
+    --text-xs: 12px;
+    --text-xsm: 14px;
+    --text-sm: 16px;
+    --text-md: 18px;
+    --text-lg: 20px;
+    --text-xl: 24px;
+  }
+}
+
+@font-face {
+  font-family: "HarrietText";
+  src: url("../fonts/HARRIETTEXTBOLD.OTF") format("opentype");
+  font-weight: 700; /* Bold */
+}
+.font-harriettext-bold {
+  font-family: "HarrietText", sans-serif;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "HarrietText";
+  src: url("../fonts/HARRIETTEXTMEDIUM.OTF") format("opentype");
+  font-weight: 500;
+}
+.font-harriettext-medium {
+  font-family: "HarrietText", sans-serif;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "HarrietText";
+  src: url("../fonts/HARRIETTEXTREGULAR.OTF") format("opentype");
+  font-weight: 400; /* Bold */
+}
+.font-harriettext-ragular {
+  font-family: "HarrietText", sans-serif;
+  font-weight: 400;
+}
+
+/* Add more font weights if you have them */
